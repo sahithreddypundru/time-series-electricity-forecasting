@@ -1,15 +1,15 @@
 # time-series-electricity-forecasting
 
-Forecasting Weekly German Electricity Demand
-Overview
+# Forecasting Weekly German Electricity Demand
+# Overview
 
 This repository contains the implementation of a time series forecasting project completed for the Advanced Research Topics module as part of the MSc Data Science programme at the University of Hertfordshire.
 
 The project investigates several forecasting techniques for predicting weekly German electricity demand and compares traditional statistical models with machine learning and deep learning approaches.
 
-Objectives
+# Objectives
 
-The main objectives of this project are to:
+# The main objectives of this project are to:
 
 Analyse historical German electricity demand.
 Develop benchmark forecasting models.
@@ -17,7 +17,7 @@ Build SARIMA and SARIMAX forecasting models.
 Develop a feature-based machine learning model.
 Train an LSTM neural network using hourly electricity demand.
 Compare model performance using common forecasting metrics.
-Dataset
+# Dataset
 Electricity Demand
 Source: Open Power System Data (OPSD)
 Country: Germany
@@ -54,7 +54,7 @@ Fourier Features
 
 A Random Forest model was additionally used to analyse feature importance. It was not used for forecasting.
 
-Evaluation Metrics
+# Evaluation Metrics
 
 Model performance was evaluated using:
 
@@ -71,7 +71,7 @@ SARIMA	2.134	2.730
 SARIMAX	2.745	3.485
 HistGradientBoosting	1.953	2.661
 LSTM	0.693	0.908
-Summary
+# Summary
 Seasonal Naive was the strongest benchmark model.
 SARIMA improved upon the benchmark methods.
 Adding weather variables through SARIMAX did not improve forecasting accuracy.
