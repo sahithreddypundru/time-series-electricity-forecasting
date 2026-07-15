@@ -32,6 +32,9 @@ Heating Degree Days (HDD)
 Cooling Degree Days (CDD)
 Forecasting Models
 
+dataset link:https://data.open-power-system-data.org/time_series/2020-10-06/time_series_60min_singleindex.csv 
+ i used dataset  : time_series_60min_singleindex.csv
+ 
 The following forecasting methods were implemented:
 
 Mean Forecast
